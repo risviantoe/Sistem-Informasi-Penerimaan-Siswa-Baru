@@ -1,0 +1,121 @@
+@media print {
+    body {
+    color: #333;
+    }
+
+    h5 {
+        font-size: 16px;
+    }
+
+    th {
+        font-size: 13px;
+    }
+
+    td {
+        font-size: 13px !important;
+        font-weight: 600;
+    }
+
+    .line {
+        width: 80px;
+        border: 1px solid #333;
+    }
+
+    .container {
+        border: 2px solid #000;
+        width: 100%;
+    }
+
+    .header {
+        border-bottom: 1px solid #333;
+    }
+
+    .header .logo {
+        width: 150px !important;
+    }
+
+    .header h2 {
+        font-size: 18px;
+    }
+
+    .header .title-header {
+        text-align: center;
+    }
+
+    .main .info .table td {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .main .nilai , .jurusan {
+        padding-left: 3rem;
+    }
+
+    .main .nilai .table td {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .main .jurusan .box-jurusan {
+        color: red;
+        text-align: center;
+        border: 1px solid #333;
+    }
+
+    .footer {
+        border-top: 1px solid #333;
+        font-size: 12px;
+    }
+}
+
+body {
+    color: #333;
+}
+
+.line {
+    width: 80px;
+    height: 2px;
+    background: #333;
+}
+
+.container {
+    border: 2px solid #000;
+    width: 100%;
+}
+
+.header {
+    border-bottom: 1px solid #333;
+}
+
+.header .logo {
+    width: 200px;
+}
+
+.header .title-header {
+    text-align: center;
+}
+
+.main .info .table td {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.main .nilai , .jurusan {
+    padding-left: 3rem;
+}
+
+.main .nilai .table td {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.main .jurusan .box-jurusan {
+    text-align: center;
+    border: 1px solid #333;
+    color: red;
+}
+
+.footer {
+    border-top: 1px solid #333;
+}
+

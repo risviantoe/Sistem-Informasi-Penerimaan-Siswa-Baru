@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+}
+
+.table {
+    --bs-table-striped-bg: rgba(116, 124, 236, 0.1);
+    --bs-table-hover-color: #fff;
+    --bs-table-hover-bg: rgba(116, 124, 236, 0.5);
+    --bs-table-striped-color: #333;
+    font-size: 14px;
+}
+
+.table thead {
+    background: #747cec;
+    color: #fff;
+    vertical-align: middle;
+}
+
+.table tbody td {
+    color: #333;
+    font-weight: 400;
+}
+
+.link {
+    color: #8C94FF;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.alert {
+    font-size: 13px;
+    margin-bottom: 0;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.alert button {
+    font-size: smaller;
+}
+
+.proses {
+    background: #C6ECFF;
+}
+
+.lolos {
+    background: #BCEDC0;
+}
+
+.tdk-lolos {
+    background: #FFCDC6;
+}
+
+.cadangan {
+    background: #B5B5C3;
+}
+
+.text-dark {
+    color: #333;
+}
+
+.btn {
+    border-radius: 5px;
+    padding: 7px 20px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.btn-primary {
+    background: #8C94FF;
+    border: 1px solid #8C94FF;
+}
+
+.btn-primary:hover {
+    background: #747cec;
+    border: 1px solid #747cec;
+}
+
+.btn-primary:disabled {
+    background: #6469a8;
+    border: 1px solid #6469a8;
+}
+
+.btn-secondary {
+    background: #fff;
+    border: 2px solid #8C94FF;
+    color: #8C94FF;
+}
+
+.btn-secondary:hover {
+    background: #747cec;
+    border: 2px solid #747cec;
+}
+
+/* NAVBAR */
+
+.navbar {
+    border-bottom: 1px solid #EBEBED;
+    padding: 10px 35px;
+    background: #fff;
+}
+
+.navbar .navbar-brand {
+    font-family: 'Baloo 2', cursive;
+    color: #8C94FF;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.navbar .navbar-brand:hover {
+    color: #747cec;
+}
+
+.navbar .avatar {
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+}
+
+.navbar .nav-user {
+    font-size: 14px;
+}
+
+.navbar .nav-link:hover {
+    text-decoration: underline;
+}
+
+.navbar .dropdown-menu {
+    min-width: fit-content !important;
+}
+
+.navbar .dropdown-menu[data-bs-popper] {
+    right: 0;
+    left: auto;
+}
+
+/* MAIN */
+
+.main {
+    border-right: 1px solid #EBEBED;
+    padding: 20px 35px;
+    margin-top: 70px;
+}
+
+.main .banner {
+    background: url(../img/banner.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 235px;
+    padding-left: 225px;
+    color: #fff;
+}
+
+.main .banner p {
+    font-size: 18px;
+}
+
+.main .banner h4 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.main .navbar {
+    border: none;
+    padding: 0;
+}
+
+.main .navbar .nav-item .active {
+    border-bottom: 3px solid #8C94FF;
+    font-weight: 600;
+}
+
+.main .navbar .nav-item .nav-link:hover {
+    text-decoration: none;
+}
+
+.main .section {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.1);
+}
+
+.main .section h6 {
+    font-weight: 600;
+}
+
+.main .line {
+    height: 3px;
+    background: #8C94FF;
+    width: 100px;
+    border-radius: 2px;
+    margin-top: 15px;
+}
+
+.main .form-container label {
+    font-size: 14px;
+}
+
+.main .form-container label[class="title"] {
+    font-weight: 700;
+}
+
+.main .left-form {
+    border-right: 1px solid #EBEBED;
+    padding-right: 3rem;
+}
+
+.main .right-form {
+    padding-left: 3rem;
+}
+
+.main .nilai {
+    margin-left: 1rem;
+}
+
+.main .status-container {
+    height: 100px;
+    border-radius: 5px;
+    padding: 40px;
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+}
+
+.main .status .right-form p {
+    font-size: 12px;
+    text-align: justify;
+}
+
+.container-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-section .section-chart {
+    width: 600px;
+}
+
+.container-section .container-pengguna {
+    width: 271px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-section .section-pengguna {
+    width: 100%;
+}
+
+.container-section .container-pengguna .circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-section .container-pengguna .jml-pengguna {
+    border: 12px solid #747cec;
+}
+
+.container-section .container-pengguna .jml-pendaftar {
+    border: 12px solid #FFCE56;
+}
+
+.sidebar {
+    padding: 25px 10px;
+    position: fixed;
+    right: 0;
+    top: 70px;
+}

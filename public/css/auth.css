@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: #7F817F;
+    font-family: 'Poppins', sans-serif;
+}
+
+.alert {
+    font-size: 13px;
+    margin-bottom: 0;
+    margin-top: 1rem;
+}
+
+.alert button {
+    font-size: smaller;
+}
+
+.btn {
+    height: 55px;
+    border-radius: 28px;
+    width: 240px;
+    padding: 10px;
+}
+
+.btn-primary {
+    background: #8C94FF;
+    border: 1px solid #8C94FF;
+}
+
+.btn-primary:hover {
+    background: #747cec;
+    border: 1px solid #747cec;
+}
+
+.btn .btn-text {
+    font-weight: 600;
+}
+
+.link {
+    color: #8C94FF;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+    color: #747cec;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    background: #8C94FF;
+    height: 100%;
+    padding: 130px 40px 40px;
+}
+
+.left-side .ornament {
+    position: absolute;
+    background: url(../img/ornament.svg);
+    height: 146px;
+    width: 146px;
+}
+
+.left-side .ornament-1 {
+    top: 50px;
+    left: 0;
+}
+
+.left-side .ornament-2 {
+    top: 100px;
+    left: 75vh;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.left-side .heading h1 {
+    color: #fff;
+    font-family: 'Baloo 2', cursive;
+    font-weight: 700;
+}
+
+.left-side .hero img {
+    margin-left: -100px;
+    height: 500px;
+    width: 750px;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    background: #fff;
+    padding: 70px 40px;
+}
+
+.right-side h1 {
+    color: #8C94FF;
+    font-family: 'Baloo 2', cursive;
+    font-weight: 700;
+}
+
+.right-side p {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.right-side .form {
+    width: 400px;
+}
+
+.right-side .form label {
+    font-size: 14px;
+}
+
+.right-side .form input {
+    border: none;
+    border-radius: 0px;
+    border-bottom: 2px solid #E4E4E4;
+    font-size: 15px;
+    color: #333;
+}
+
+.right-side .switch {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .left-side {
+      display: none;
+  }
+
+  .right-side {
+      padding: 30px;
+  }
+}

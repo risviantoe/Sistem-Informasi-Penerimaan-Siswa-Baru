@@ -1,0 +1,39 @@
+.main .banner {
+    height: 302px;
+    padding-left: 300px;
+}
+
+.main .banner p {
+    font-size: 20px;
+}
+
+.main .banner h4 {
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.container-section .section-chart {
+    width: 775px;
+}
+
+.container-section .container-pengguna {
+    width: 390px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-section .container-pengguna .circle {
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.container-section .container-pengguna .jml-pengguna {
+    border: 16px solid #747cec;
+}
+
+table .btn-action {
+    padding: 5px 12px;
+}

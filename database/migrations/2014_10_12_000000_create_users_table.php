@@ -18,13 +18,13 @@ class CreateUsersTable extends Migration
             $table->string('nama');
             $table->string('email')->unique();
             $table->string('password');
-            $table->string('jenis_kelamin');
-            $table->string('tempat_lahir');
-            $table->date('tanggal_lahir');
-            $table->string('agama');
+            $table->string('jenis_kelamin')->nullable();
+            $table->string('tempat_lahir')->nullable();
+            $table->date('tanggal_lahir')->nullable();
+            $table->string('agama')->nullable();
             $table->string('no_hp')->unique();
-            $table->text('alamat');
-            $table->text('ip');
+            $table->text('alamat')->nullable();
+            $table->text('ip')->nullable();
             $table->timestamps();
         });
     }

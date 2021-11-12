@@ -15,7 +15,10 @@ class CreatePendaftarTable extends Migration
     {
         Schema::create('pendaftar', function (Blueprint $table) {
             $table->id();
-            $table->bigInteger('user_id')->references('id')->on('users');
+            $table->foreignId('user_id')
+                ->constrained('users')
+                ->onUpdate('cascade')
+                ->onDelete('cascade');
             $table->string('nama');
             $table->string('asal_sekolah');
             $table->string('jurusan_pilihan');
@@ -24,7 +27,7 @@ class CreatePendaftarTable extends Migration
             $table->float('nilai_ipa');
             $table->float('nilai_bing');
             $table->float('rata_rata');
-            $table->string('status');
+            $table->string('status')->default('Proses Seleksi');
             $table->timestamps();
         });
     }
